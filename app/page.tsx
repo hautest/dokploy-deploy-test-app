@@ -1,5 +1,8 @@
 import Image from "next/image";
 
+// 동적 렌더링 강제 - 매 요청마다 실행되어 console.log가 찍힘
+export const dynamic = 'force-dynamic';
+
 export default function Home() {
   console.log("홈서버 접속 test 로그2");
   return (
